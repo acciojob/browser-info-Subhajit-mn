@@ -1,7 +1,9 @@
 //your JS code here. If required.
-	let browserName = navigator.appName;
-	let version = navigator.appVersion;
-	document.getElementById("browser-info").innerHtML = "You are using " + browserName + " version " + version.
+
+let dev_ = document.getElementById("browser-info");
+	// let browserName = navigator.appName;
+	// let version = navigator.appVersion;
+div_.innerText = "You are using " + navigator["appName"] + " version " + navigator["appVersion"];
 		
 
 	
